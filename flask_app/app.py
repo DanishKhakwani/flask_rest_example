@@ -10,3 +10,4 @@ db = SQLAlchemy(app)
 api = Api(app)
 
 from flask_app import views
+from flask_app.models import Animal
